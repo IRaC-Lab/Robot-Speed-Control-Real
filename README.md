@@ -13,6 +13,13 @@
 - **Source**: [robotiq](https://github.com/crigroup/robotiq)
 
 
+## Prerequisites
+
+- This repository assumes that `Robot-Speed-Control` has already been set up in your ROS workspace.
+- Additional packages such as `robotiq` should be downloaded from their original repositories.
+- Place each package in the appropriate location according to your local workspace structure.
+
+
 
 ## System Bring-Up Procedure
 
