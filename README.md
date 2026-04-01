@@ -41,7 +41,7 @@ roslaunch realsense2_camera rs_camera.launch serial_no:=<YOUR_CAMERA1_SERIAL> ca
 ```bash    
 roslaunch realsense2_camera rs_camera.launch serial_no:=<YOUR_CAMERA2_SERIAL> camera:=camera2
 ```
-Example `serial:="'22141921'"`
+Example `serial_no:=920312072876`
 
 **3. YOLO-Based Human Distance Measurement via Depth-Color Alignment**  
 
