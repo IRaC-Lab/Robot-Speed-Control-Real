@@ -28,7 +28,10 @@
 
     roslaunch realsense2_camera rs_camera.launch serial_no:=<YOUR_CAMERA1_SERIAL> camera:=camera1
     roslaunch realsense2_camera rs_camera.launch serial_no:=<YOUR_CAMERA2_SERIAL> camera:=camera2
-    rosrun realsense2_camera align_depth_to_color_sim_mt.py
+
+**3. YOLO-Based Human Distance Measurement via Depth-Color Alignment**  
+    
+    rosrun realsense2_camera align_depth_to_color.py
     rosrun realsense2_camera depth_distance_seg.py
     rosrun ur_control real_ur_control.py
 
