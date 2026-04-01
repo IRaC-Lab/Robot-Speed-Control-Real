@@ -33,6 +33,8 @@
     
     rosrun realsense2_camera align_depth_to_color.py
     rosrun realsense2_camera depth_distance_seg.py
+
+**4. Adaptive Speed Control for UR3 Waypoint Motion** 
     rosrun ur_control real_ur_control.py
 
 
