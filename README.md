@@ -23,6 +23,7 @@
     
     
     
+    
     roslaunch robotiq_control cmodel_simple_controller.launch ip:=<YOUR_ROBOT_IP>
     
     rosrun robotiq_control Gripper_Control.py
