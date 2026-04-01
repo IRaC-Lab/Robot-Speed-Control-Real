@@ -18,7 +18,7 @@
 
 ### Notes
 - Replace `<YOUR_ROBOT_IP>` with the actual IP address of the UR3 robot (Example `robot_ip:=172.16.0.2`).
-- Replace `<YOUR_CAMERA1_SERIAL>` and `<YOUR_CAMERA2_SERIAL>` with the serial numbers of the RealSense cameras (serial_no:=920312072876).
+- Replace `<YOUR_CAMERA1_SERIAL>` and `<YOUR_CAMERA2_SERIAL>` with the serial numbers of the RealSense cameras ('serial_no:=920312072876').
 - Make sure the robot, gripper, and cameras are connected before running the commands.
 - Run commands in separate terminals when necessary.
 
