@@ -11,3 +11,18 @@
 ### 2. Robotiq-Gripper
 - **Description**: ROS packages for Robotiq gripper control and integration.
 - **Source**: [robotiq](https://github.com/crigroup/robotiq)
+
+
+
+
+
+
+
+
+
+
+
+
+## License
+
+Each package within this repository is distributed under its respective license. Please refer to each package's original repository for specific licensing information.
