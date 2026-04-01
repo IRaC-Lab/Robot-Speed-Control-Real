@@ -34,20 +34,27 @@ roslaunch ur_gripper_85_moveit_config start_moveit.launch
 
 **2. RealSense Camera Bring-up**   
 
-    roslaunch realsense2_camera rs_camera.launch serial_no:=<YOUR_CAMERA1_SERIAL> camera:=camera1
-    
-    roslaunch realsense2_camera rs_camera.launch serial_no:=<YOUR_CAMERA2_SERIAL> camera:=camera2
+```bash
+roslaunch realsense2_camera rs_camera.launch serial_no:=<YOUR_CAMERA1_SERIAL> camera:=camera1
+```
+```bash    
+roslaunch realsense2_camera rs_camera.launch serial_no:=<YOUR_CAMERA2_SERIAL> camera:=camera2
+```
 
 **3. YOLO-Based Human Distance Measurement via Depth-Color Alignment**  
-    
-    rosrun realsense2_camera align_depth_to_color.py
-    
-    rosrun realsense2_camera depth_distance_seg.py
+
+```bash    
+rosrun realsense2_camera align_depth_to_color.py
+```
+```bash
+rosrun realsense2_camera depth_distance_seg.py
+```
 
 **4. Adaptive Speed Control for UR3 Waypoint Motion** 
 
-    rosrun ur_control real_ur_control.py
-
+```bash
+rosrun ur_control real_ur_control.py
+```
 
 
 
