@@ -5,5 +5,5 @@
 ## Packages
 
 ### 1. Robot-Speed-Control
-- **Description**: ROS packages for controlling the Universal Robots UR3 robotic arm.
+- **Description**: ROS packages for simulation-based adaptive speed control of the Universal Robots UR3 robotic arm.
 - **Source**: [Robot-Speed-Control](https://github.com/IRaC-Lab/Robot-Speed-Control)
