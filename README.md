@@ -16,6 +16,11 @@
 
 ## System Bring-Up Procedure
 
+### Notes
+- Replace `<YOUR_ROBOT_IP>` with the actual IP address of the UR3 robot (Example `robot_ip:=172.16.0.2`).
+- Replace `<YOUR_CAMERA1_SERIAL>` and `<YOUR_CAMERA2_SERIAL>` with the serial numbers of the RealSense cameras (serial_no:=920312072876).
+- Make sure the robot, gripper, and cameras are connected before running the commands.
+- Run commands in separate terminals when necessary.
 
 **1. UR3 and Gripper Bring-up**   
 
@@ -25,7 +30,6 @@ roslaunch ur_gripper_description bringup_with_gripper_85.launch robot_ip:=<YOUR_
 ```bash
 roslaunch robotiq_control cmodel_simple_controller.launch ip:=<YOUR_ROBOT_IP>
 ```
-Example `robot_ip:=192.168.0.60`
 ```bash
 rosrun robotiq_control Gripper_Control.py
 ```
@@ -41,7 +45,6 @@ roslaunch realsense2_camera rs_camera.launch serial_no:=<YOUR_CAMERA1_SERIAL> ca
 ```bash    
 roslaunch realsense2_camera rs_camera.launch serial_no:=<YOUR_CAMERA2_SERIAL> camera:=camera2
 ```
-Example `serial_no:=920312072876`
 
 **3. YOLO-Based Human Distance Measurement via Depth-Color Alignment**  
 
