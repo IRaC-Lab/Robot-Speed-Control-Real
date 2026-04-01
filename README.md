@@ -7,3 +7,7 @@
 ### 1. Robot-Speed-Control
 - **Description**: ROS packages for simulation-based adaptive speed control of the Universal Robots UR3 robotic arm.
 - **Source**: [Robot-Speed-Control](https://github.com/IRaC-Lab/Robot-Speed-Control)
+
+### 2. Robotiq-Gripper
+- **Description**: ROS packages for Robotiq gripper control and integration.
+- **Source**: [robotiq](https://github.com/crigroup/robotiq)
