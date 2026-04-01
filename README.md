@@ -56,6 +56,11 @@ roslaunch realsense2_camera rs_camera.launch serial_no:=<YOUR_CAMERA2_SERIAL> ca
 
 **3. YOLO-Based Human Distance Measurement via Depth-Color Alignment**  
 
+```bash
+cd catkin_ws/src/Robot-Speed-Control/yolov5/segment
+python3 predict.py --conf 0.7
+```
+
 ```bash    
 rosrun realsense2_camera align_depth_to_color.py
 ```
