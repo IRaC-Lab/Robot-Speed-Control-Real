@@ -17,11 +17,10 @@
 ## System Bring-Up Procedure
 
 
-    ```
+    
     sudo apt-get install librealsense2-dkms
     sudo apt-get install librealsense2-utils
-    ```
-
+    
 
 
 
