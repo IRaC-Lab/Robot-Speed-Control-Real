@@ -24,7 +24,8 @@
     rosrun robotiq_control Gripper_Control.py
     roslaunch ur_gripper_85_moveit_config start_moveit.launch
 
-**2. RealSense Camera Bring-up***    
+**2. RealSense Camera Bring-up**   
+
     roslaunch realsense2_camera rs_camera.launch serial_no:=<YOUR_CAMERA1_SERIAL> camera:=camera1
     roslaunch realsense2_camera rs_camera.launch serial_no:=<YOUR_CAMERA2_SERIAL> camera:=camera2
     rosrun realsense2_camera align_depth_to_color_sim_mt.py
