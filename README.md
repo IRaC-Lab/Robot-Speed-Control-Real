@@ -25,9 +25,12 @@ roslaunch ur_gripper_description bringup_with_gripper_85.launch robot_ip:=<YOUR_
 ```bash
 roslaunch robotiq_control cmodel_simple_controller.launch ip:=<YOUR_ROBOT_IP>
 ```
-    rosrun robotiq_control Gripper_Control.py
-    
-    roslaunch ur_gripper_85_moveit_config start_moveit.launch
+```bash
+rosrun robotiq_control Gripper_Control.py
+```
+```bash    
+roslaunch ur_gripper_85_moveit_config start_moveit.launch
+```
 
 **2. RealSense Camera Bring-up**   
 
