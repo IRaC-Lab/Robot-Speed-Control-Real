@@ -25,6 +25,7 @@ roslaunch ur_gripper_description bringup_with_gripper_85.launch robot_ip:=<YOUR_
 ```bash
 roslaunch robotiq_control cmodel_simple_controller.launch ip:=<YOUR_ROBOT_IP>
 ```
+Example `robot_ip:=192.168.0.60`
 ```bash
 rosrun robotiq_control Gripper_Control.py
 ```
@@ -40,6 +41,7 @@ roslaunch realsense2_camera rs_camera.launch serial_no:=<YOUR_CAMERA1_SERIAL> ca
 ```bash    
 roslaunch realsense2_camera rs_camera.launch serial_no:=<YOUR_CAMERA2_SERIAL> camera:=camera2
 ```
+Example `serial:="'22141921'"`
 
 **3. YOLO-Based Human Distance Measurement via Depth-Color Alignment**  
 
