@@ -19,9 +19,9 @@
 
 **1. UR3 and Gripper Bring-up**   
 
-    '''bash
+    ```bash
     roslaunch ur_gripper_description bringup_with_gripper_85.launch robot_ip:=<YOUR_ROBOT_IP>
-    '''
+    ```
     
     roslaunch robotiq_control cmodel_simple_controller.launch ip:=<YOUR_ROBOT_IP>
     
