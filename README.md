@@ -17,10 +17,12 @@
 ## System Bring-Up Procedure
 
 
-**1. UR3 and Gripper Bring-up**    
+**1. UR3 and Gripper Bring-up**   
+
     '''bash
     roslaunch ur_gripper_description bringup_with_gripper_85.launch robot_ip:=<YOUR_ROBOT_IP>
     '''
+    
     roslaunch robotiq_control cmodel_simple_controller.launch ip:=<YOUR_ROBOT_IP>
     
     rosrun robotiq_control Gripper_Control.py
