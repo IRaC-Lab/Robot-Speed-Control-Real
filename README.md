@@ -18,7 +18,7 @@
 
 
     
-   sudo apt-get install librealsense2-dkms
+    roslaunch ur_gripper_description bringup_with_gripper_85.launch robot_ip:={ROBOT_IP}
     sudo apt-get install librealsense2-utils
     
 
