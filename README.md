@@ -16,7 +16,7 @@
 ## Prerequisites
 
 - This repository assumes that `Robot-Speed-Control` has already been set up in your ROS workspace.
-- Additional packages such as `robotiq` should be downloaded from their original repositories.
+- For additional packages such as `robotiq`, please refer to their original repositories for dependency installation and setup instructions.
 - Place each package in the appropriate location according to your local workspace structure.
 
 
