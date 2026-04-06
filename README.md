@@ -2,6 +2,10 @@
  Real-World Implementation for "Edge AI-Driven Multi-Camera System for Adaptive Robot Speed Control in Safety-Critical Environments"
 
 
+
+https://github.com/user-attachments/assets/6ff931fb-54b5-4962-b027-2ad753715b6f
+
+
 ## Packages
 
 ### 1. Robot-Speed-Control
