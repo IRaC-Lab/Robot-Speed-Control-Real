@@ -27,6 +27,7 @@
 - Replace `<YOUR_ROBOT_IP>` with the actual IP address of the UR3 robot (e.g., `robot_ip:=172.16.0.2`).
 - Replace `<YOUR_CAMERA1_SERIAL>` and `<YOUR_CAMERA2_SERIAL>` with the serial numbers of the RealSense cameras (e.g., `serial_no:=920312072876`).
 - Before running `align_depth_to_color.py`, update the depth subscriber in the script to match your RealSense depth topic.
+- Before running `rosrun ur_control real_ur_control.py`, place `real_ur_control.py` in `ur3/ur_control/scripts`.
 - Make sure the robot, gripper, and cameras are connected before running the commands.
 - Run commands in separate terminals when necessary.
 
